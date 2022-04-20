@@ -1,14 +1,16 @@
 {
   "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
+    [
+      { id: 1, name: "Mike Jones", role: "Admin", username: "mike123", status: "checkbox", group: "dropdown" },
+      { id: 2, name: "Jake Man", role: "User", username: "jake72", status: "checkbox", group: "dropdown" },
+      { id: 3, name: "Cindy Freeman", role: "Admin", username: "cin33", status: "checkbox", group: "dropdown" },
+      { id: 4, name: "Jack Jenkins", role: "Guest User", username: "jack555", status: "checkbox", group: "dropdown" },
+      { id: 5, name: "Joe Mamaman", role: "User", username: "joe22", status: "checkbox", group: "dropdown" },
+      { id: 6, name: "Jimbo Johnson", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
+      { id: 7, name: "Robert Smith", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
+      { id: 8, name: "Van Halen", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
+      { id: 9, name: "Jimmy Smith", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
+      { id: 10, name: "Jackie Taylor", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" }
+    ]
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
 }

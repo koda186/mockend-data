@@ -33,8 +33,6 @@
     },
     "username": {
       "loremWord": {
-        "minLength": 5,
-        "maxLength": 20
       }
     },
     "status": {

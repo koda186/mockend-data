@@ -1,35 +1,58 @@
+        { id: 10, name: "Jackie Taylor", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" }
 {
   "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    "name": {
+      "string": [
+        "Santa Prosacco",
+        "Noemy Vandervort V",
+        "Lexi O'Conner",
+        "Gracie Weber",
+        "Roscoe Johns",
+        "Emmett Lebsack",
+        "Keegan Thiel",
+        "Wellington Koelpin II",
+        "Karley Kiehn V",
+        "Elda Palumbo",
+        "Pacifico Giordano",
+        "Pacifico Giordano",
+        "Avide Guerra",
+        "Yago Amato",
+        "鈴木 陽一",
+        "渡辺 裕美子",
+        "Emma Williams",
+        "Martha Davis",
+        "Ashley Castillo",
+        "山田 桃子"
+      ]
     },
-    "title": {
-      "loremWords": {
+    "role": {
+      "string": [
+        "Admin",
+        "User",
+        "Guest User"
+      ]
+    },
+    "username": {
+      "loremWord": {
         "minLength": 5,
         "maxLength": 20
       }
     },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
+    "status": {
       "string": [
-        "one",
-        "two",
-        "three"
+        "Active",
+        "Inactive"
       ]
     },
-    "isDraft": {
-      "boolean": {}
+    "group": {
+      "string": [
+        "Lake Travis Dam",
+        "Belton Dam",
+        "Survey Team 1",
+        "Survey Team 6",
+        "Terradepth Survey Team 1",
+        "Gulf Team"
+      ]
     },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
   }
 }

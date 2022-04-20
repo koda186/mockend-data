@@ -1,6 +1,6 @@
 {
-  "Post": {
-    [
+  "Post": [
+
       { id: 1, name: "Mike Jones", role: "Admin", username: "mike123", status: "checkbox", group: "dropdown" },
       { id: 2, name: "Jake Man", role: "User", username: "jake72", status: "checkbox", group: "dropdown" },
       { id: 3, name: "Cindy Freeman", role: "Admin", username: "cin33", status: "checkbox", group: "dropdown" },
@@ -11,6 +11,5 @@
       { id: 8, name: "Van Halen", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
       { id: 9, name: "Jimmy Smith", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
       { id: 10, name: "Jackie Taylor", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" }
-    ]
-  },
+  ]
 }

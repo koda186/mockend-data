@@ -1,15 +1,35 @@
 {
-  "Post": [
-
-      { id: 1, name: "Mike Jones", role: "Admin", username: "mike123", status: "checkbox", group: "dropdown" },
-      { id: 2, name: "Jake Man", role: "User", username: "jake72", status: "checkbox", group: "dropdown" },
-      { id: 3, name: "Cindy Freeman", role: "Admin", username: "cin33", status: "checkbox", group: "dropdown" },
-      { id: 4, name: "Jack Jenkins", role: "Guest User", username: "jack555", status: "checkbox", group: "dropdown" },
-      { id: 5, name: "Joe Mamaman", role: "User", username: "joe22", status: "checkbox", group: "dropdown" },
-      { id: 6, name: "Jimbo Johnson", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
-      { id: 7, name: "Robert Smith", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
-      { id: 8, name: "Van Halen", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
-      { id: 9, name: "Jimmy Smith", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" },
-      { id: 10, name: "Jackie Taylor", role: "Admin", username: "jim99", status: "checkbox", group: "dropdown" }
-  ]
+  "Post": {
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag": {
+      "string": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  }
 }

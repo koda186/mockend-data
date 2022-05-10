@@ -1,6 +1,33 @@
 {
   "Post": {
-    "name": {
+    "uuid": {
+      { "int": { "min": 0, "max": 1000000 }}
+    },
+    "email": {
+      "string": [
+        "SantaProsacco@gmail.com",
+        "Noemy.Vandervort@gmail.com",
+        "Lexi.O.Conner@yahoo.com",
+        "Gracie.Weber@gmail.com",
+        "RoscoeJohns@gmail.com",
+        "EmmettLebsack@gmail.com",
+        "Keegan.Thiel@gmail.com",
+        "Wellington.Koelpin@gmail.com",
+        "Karley.Kiehn@gmail.com",
+        "Elda.Palumbo@yahoo.com",
+        "Altonio.Giordano@hotmail.com",
+        "Pacifico.Giordano@hotmail.com",
+        "Avide.Guerra@hotmail.com",
+        "YagoAmato@hotmail.com",
+        "鈴木陽一@yahoo.com",
+        "渡辺裕美子@hotmail.com",
+        "EmmaWilliams@yahoo.com",
+        "MarthaDavis@yahoo.com",
+        "Ashley.Castillo@hotmail.com",
+        "山田.桃子@yahoo.com"
+      ]
+    },
+    "full_name": {
       "string": [
         "Santa Prosacco",
         "Noemy Vandervort V",
@@ -28,7 +55,7 @@
       "string": [
         "Admin",
         "User",
-        "Guest User"
+        "Root"
       ]
     },
     "username": {
@@ -42,7 +69,7 @@
       ]
     },
     "group": {
-      "string": [
+      "hasMany": [
         "Lake Travis Dam",
         "Belton Dam",
         "Survey Team 1",

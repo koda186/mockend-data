@@ -77,10 +77,7 @@
         "Terradepth Survey Team 1",
         "Gulf Team"
        ]
-    },
-     "userComments": {
-        "hasMany": "Comment"
-      }
+    }
     }
   }
 }

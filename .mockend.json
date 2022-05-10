@@ -51,16 +51,16 @@
         "山田 桃子"
       ]
     },
+    "nick_name": {
+      "loremWord": {
+      }
+    },
     "role": {
       "string": [
         "Admin",
         "User",
         "Root"
       ]
-    },
-    "username": {
-      "loremWord": {
-      }
     },
     "status": {
       "string": [

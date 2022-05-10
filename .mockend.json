@@ -69,22 +69,22 @@
       ]
     },
     "group": {
-      "string": {[
+      "string": {
         "Lake Travis Dam",
         "Belton Dam",
         "Survey Team 1",
         "Survey Team 6",
         "Terradepth Survey Team 1",
         "Gulf Team"
-      ]},
-      {[
+      },
+      {
         "Lake Travis Dam",
         "Belton Dam",
         "Survey Team 1",
         "Survey Team 6",
         "Terradepth Survey Team 1",
         "Gulf Team"
-      ]},
+      },
     }
   }
 }

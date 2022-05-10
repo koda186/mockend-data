@@ -69,7 +69,7 @@
       ]
     },
     "group": {
-      string: [
+      "string": [
         "Lake Travis Dam",
         "Belton Dam",
         "Survey Team 1",
@@ -77,6 +77,11 @@
         "Terradepth Survey Team 1",
         "Gulf Team"
        ]
+    },
+    "org": {
+      "userComments": {
+        "hasMany": "Comment"
+      }
     }
   }
 }

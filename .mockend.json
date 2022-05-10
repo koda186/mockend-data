@@ -70,12 +70,12 @@
     },
     "group": {
       "string": [
-        "Lake Travis Dam",
-        "Belton Dam",
-        "Survey Team 1",
-        "Survey Team 6",
-        "Terradepth Survey Team 1",
-        "Gulf Team"
+        "hasMany": "Lake Travis Dam",
+        "hasMany": "Belton Dam",
+        "hasMany":  "Survey Team 1",
+        "hasMany": "Survey Team 6",
+        "hasMany": "Terradepth Survey Team 1",
+        "hasMany": "Gulf Team"
       ]
     }
   }
